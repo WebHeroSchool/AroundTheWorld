@@ -1,0 +1,79 @@
+.header__title {
+	font-size: 115px; /* размер шрифта */
+	width: 80%; /* ширина блока */
+	background-color: #F5F5F5;
+}
+.aside-right {
+	float: right; /* блок смещается вправо */
+	width: 20%; /* ширина блока */
+	margin: 0px 0px 0px 30px; /*верхний, правый, нижний, левый внешние отступы*/
+	background-color: #FFFFFF;
+}
+.aside-right__caption {
+	font-weight: 100; /* интенсивность жирного начертания*/
+	font-style: italic; /* курсив */
+	text-transform: uppercase; /* все буквы заглавные */
+	text-decoration: underline; /* Добавляем подчеркивание */
+}
+.aside-right__text {
+	font-weight: 600; /* интенсивность жирного начертания*/
+	text-transform: uppercase; /* все буквы заглавные */
+}
+.aside-right__list {
+	list-style-type: none; /* убираем маркеры списка */
+    padding: 0; /* Убираем поля */
+}
+.aside-right__image {
+	width:180px;
+	height:150px;
+}
+.article__lead {
+	text-transform: uppercase; /* все буквы заглавные */
+	margin-top:0px; /* внешний верхний отступ */
+	font-size:20px; /* Размер шрифта */
+}
+.section {
+	background-color: #F5F5F5;
+}
+.aside-left {
+	float: left;  /*блок смещается влево*/ 
+	width: 30%;  /*ширина блока*/ 
+	background-color: #F5F5F5;
+	margin-right: 20px; /*правый внешниq отступ*/
+}
+.aside-left__image {
+	width:370px;
+	height:370px;
+	text-align:center;
+}
+.article__desc {
+	margin-bottom: 50px; /* нижний внешний отступ*/
+}
+.article__text{
+	text-indent: 45px; /*отступ первой строки*/
+	font-size: 21px; /* Размер шрифта */
+	margin-top: 0em; /* Отступ сверху */
+    margin-bottom: 0em; /* Отступ снизу */
+}
+.aside-left__desc3{
+	border-style: solid; /*стиль рамки*/
+	border-width: 1px; /*ширина рамки*/
+	font-size:55px; /* Размер шрифта */
+	font-weight: 600; /* интенсивность жирного начертания*/
+	background-color: #FFD700; /*фон*/
+	float: left; /*блок смещается влево.Обтекание по правому краю*/ 
+	margin-top:100px;  /*внешний верхний отступ */
+	width: 22%;  /*ширина блока*/
+	
+}
+.aside-left__desc2 {
+	margin-top:0px; /* внешний верхний отступ */
+	border-style: solid; /*стиль рамки*/
+	border-width: 1px; /*ширина рамки*/
+	font-size:20px; /* Размер шрифта */
+	float: right; /*блок смещается вправо.Обтекание по левому краю*/
+	margin-top:100px;  /*внешний верхний отступ */
+	width: 76%;  /*ширина блока*/
+
+}
+
