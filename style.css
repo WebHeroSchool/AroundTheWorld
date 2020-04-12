@@ -2,6 +2,7 @@
 	font-size: 115px; /* размер шрифта */
 	width: 80%; /* ширина блока */
 	background-color: #F5F5F5;
+	font-family: 'Anton', sans-serif;
 }
 .aside-right {
 	float: right; /* блок смещается вправо */
@@ -74,6 +75,8 @@
 	float: right; /*блок смещается вправо.Обтекание по левому краю*/
 	margin-top:100px;  /*внешний верхний отступ */
 	width: 76%;  /*ширина блока*/
-
+}
+body {
+	font-family: 'Rubik', sans-serif;
 }
 
